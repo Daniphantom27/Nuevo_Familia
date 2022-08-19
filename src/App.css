@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+.header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	margin-bottom:20px;
+  width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+	font-family: fantasy;
+	text-align: center;
+	font-size: 25px;
+	background: linear-gradient(rgb(112, 111, 111), rgb(4, 12, 8));
+	color: rgb(11, 84, 153);
+	margin-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+	flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.yo{
+	display: inline-block;
+	height: 350px;
+	width:400px;
+	margin-left: 50px;
+	margin-right: 200px;
+	margin-top: 100px;
+	border-radius: 20px;
+	font-family:monospace;
+	text-align: center;
+	padding-inline-end: 5px;
+	background: linear-gradient(rgb(29, 126, 156), rgb(93, 23, 150));
+
 }
 
-.App-link {
-  color: #61dafb;
+img{
+	width: 100px;
+	height:100px;
+	margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+	margin: 20px;
 }
+
+.bro{
+	display: inline-block;
+	background-color: rgb(52, 25, 150);
+	height: 350px;
+	width:400px;
+	margin-left: 450px;
+	margin-right: 200px;
+	margin-top: -460px;
+	border-radius: 20px;
+	font-family:monospace;
+	text-align: center;
+	padding-inline-end: 5px;
+	background: linear-gradient(rgb(29, 126, 156), rgb(93, 23, 150));
+
+}
+
+.pa{
+	display: inline-block;
+	background-color: rgb(52, 25, 150);
+	height: 350px;
+	width:400px;
+	margin-left: 1350px;
+	margin-right: 200px;
+	margin-top: -600px;
+	border-radius: 20px;
+	font-family:monospace;
+	text-align: center;
+	padding-inline-end: 5px;
+	background: linear-gradient(rgb(29, 126, 156), rgb(93, 23, 150));
+
+}
+
+.ma{
+	display: inline-block;
+	background-color: rgb(52, 25, 150);
+	height: 350px;
+	width:400px;
+	margin-left: 900px;
+	margin-right: 200px;
+	margin-top: -550px;
+	border-radius: 20px;
+	font-family:monospace;
+	text-align: center;
+	padding-inline-end: 5px;
+	background: linear-gradient(rgb(29, 126, 156), rgb(93, 23, 150));
+
+}
+
